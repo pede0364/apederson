@@ -289,7 +289,7 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'December 2006',
+    date: 'Dec 2006',
     location: 'University of Minnesota - Minneapolis, MN',
     title: 'Bachelor of Individualized Studies: Technical Communication, Photography, and Rhetoric',
     content: (
@@ -300,7 +300,7 @@ export const education: TimelineItem[] = [
     ),
   },
   {
-    date: 'December 2008',
+    date: 'Dec 2008',
     location: 'Hennepin Technical College - Eden Prairie, MN',
     title: 'Associate of Applied Science: Network Administrator / Analyst',
     content: (
@@ -314,7 +314,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2013 - April 2024',
+    date: 'Mar 2013 - Apr 2024',
     location: 'Fingerhut',
     title: 'Senior Manager, Site Operations & Optimization',
     content: (
@@ -337,7 +337,7 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'November 2010 - March 2013',
+    date: 'Nov 2010 - Mar 2013',
     location: 'Cargill',
     title: 'Container Data Coordinator',
     content: (
@@ -386,8 +386,8 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Email,
-      text: 'contact@aimeep.me',
-      href: 'mailto:contact@aimeep.me',
+      text: 'apederson.contactme@gmail.com',
+      href: 'mailto:apederson.contactme@gmail.com',
     },
     {
       type: ContactType.Location,
