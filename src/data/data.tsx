@@ -64,7 +64,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-gray-500 sm:prose-base lg:prose-lg">
         I develop <strong className="text-gray-600">mobile-first websites</strong> and{' '}
-        <strong className="text-stone-600">optimize existing websites</strong> for my clients. With over a{' '}
+        <strong className="text-stone-600">optimize existing websites</strong>. With over a{' '}
         <strong className="text-stone-600">
           decade of experience in Ecommerce, Conversion Rate Optimization, and User Experience,
         </strong>{' '}
@@ -76,7 +76,7 @@ export const heroData: Hero = {
         <strong className="text-gray-600">I'd love to share that with you and your business.</strong>
       </p>
       <p className="prose-sm text-gray-500 sm:prose-base lg:prose-lg">
-        In my free time, I watch Blippi with my pre-schooler, read romance, mystery, and self-improvement books, and
+        In my free time, I watch Blippi with my pre-schooler, read romance, mystery, self-improvement books, and
         work on the occasional house project (plant this, build/paint that.)
       </p>
     </>
@@ -306,7 +306,7 @@ export const education: TimelineItem[] = [
     content: (
       <p>
         With a focus on computer networking, I studied a variety of topics: subnetting, programming, hardware, Linux and
-        command line, server configuration, internet protocol, and more. test.
+        command line, server configuration, internet protocol, and more.
       </p>
     ),
   },
