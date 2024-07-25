@@ -4,7 +4,7 @@ import {
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
-  FlagIcon,
+  CloudIcon,
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
@@ -106,8 +106,8 @@ export const aboutData: About = {
    I have a soft spot for looking at data and A/B Testing.`,
   aboutItems: [
     {label: 'Location', text: 'Minneapolis, MN', Icon: MapIcon},
-    {label: 'Age', text: '40', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Availability', text: 'Full-Time / Part-Time / Contract', Icon: CalendarIcon},
+    {label: 'Remote Work', text: 'Remote / Hybrid', Icon: CloudIcon},
     {label: 'Interests', text: 'Reading, Gardening, Nature', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Minnesota, Twin Cities', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Self Employed / Contractor', Icon: BuildingOffice2Icon},
