@@ -140,7 +140,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'HTML / CSS',
-        level: 9,
+        level: 10,
       },
       {
         name: 'JQuery',
@@ -148,7 +148,7 @@ export const skills: SkillGroup[] = [
       },
       {
         name: 'JavaScript',
-        level: 7,
+        level: 8,
       },
       {
         name: 'React',
@@ -243,21 +243,21 @@ export const skills: SkillGroup[] = [
         level: 8,
       },
       {
-        name: 'ContentSquare, Glassbox',
+        name: 'ContentSquare, Glassbox (Session Replay)',
         level: 8,
+      },
+      {
+        name: 'Git',
+        level: 6,
+      },
+      {
+        name: 'Tealium (CDP)',
+        level: 6,
       },
       {
         name: 'Postman',
         level: 5,
-      },
-      {
-        name: 'Git',
-        level: 5,
-      },
-      {
-        name: 'Tealium',
-        level: 6,
-      },
+      },      
       {
         name: 'Wix',
         level: 5,
@@ -314,7 +314,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
   {
-    date: 'Mar 2013 - Apr 2024',
+    date: 'May 2021 - Apr 2024',
     location: 'Fingerhut',
     title: 'Senior Manager, Site Operations & Optimization',
     content: (
@@ -333,6 +333,22 @@ export const experience: TimelineItem[] = [
         </li>
         <li>Leverage data and analytics to make informed decisions and drive business improvements.</li>
         <li>Ideate, develop, and proof tools used by internal site content and testing teams.</li>
+      </ul>
+    ),
+  },
+  {
+    date: 'Mar 2013 - May 2021',
+    location: 'Fingerhut',
+    title: 'Senior Ecommerce Site Optimization Analyst',
+    content: (
+      <ul className="list-disc ml-4">
+        <li>
+          End-to-end A/B testing: manage intakes, gather requirements, code and tag experiences, build Adobe Workspaces,
+          read and make test calls, communicate results, and publish quarterly performance.
+        </li>
+        <li>Partnered with Tag Management to transition A/B testing platform; improved captured visits by 110%.</li>
+        <li>Coded a marketing strategy (iPPM) that added $9.4M in incremental revenue (+1.5% Fingerhut RPV.)</li>
+        <li>Simplified marketing of proprietary add-on (SafeLine), resulting in 8.81% lift in attachment rate.</li>
       </ul>
     ),
   },
