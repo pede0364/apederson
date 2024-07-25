@@ -63,16 +63,16 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
     }, [isOpen]);
 
     const baseClass =
-      'p-2 rounded-md first-letter:uppercase transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500';
+      'p-2 rounded-md first-letter:uppercase transition-colors duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-rose';
     const activeClass = classNames(baseClass, 'bg-neutral-900 text-white font-bold');
     const inactiveClass = classNames(baseClass, 'text-neutral-200 font-medium');
     return (
       <>
         <button
           aria-label="Menu Button"
-          className="fixed right-2 top-2 z-40 rounded-md bg-white/10 p-2 ring-offset-gray-800/60 hover:bg-orange-400 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 sm:hidden"
+          className="fixed right-2 top-2 z-40 rounded-md bg-gray-800/40 p-2 ring-offset-gray-800/60 hover:bg-blush focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-rose focus-visible:ring-offset-2 sm:hidden"
           onClick={toggleOpen}>
-          <Bars3BottomRightIcon className="h-8 w-8 text-leaf" />
+          <Bars3BottomRightIcon className="h-8 w-8 text-white" />
           <span className="sr-only">Open sidebar</span>
         </button>
         <Transition.Root as={Fragment} show={isOpen}>
