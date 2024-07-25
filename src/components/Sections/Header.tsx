@@ -72,7 +72,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
           aria-label="Menu Button"
           className="fixed right-2 top-2 z-40 rounded-md bg-white/10 p-2 ring-offset-gray-800/60 hover:bg-orange-400 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2 sm:hidden"
           onClick={toggleOpen}>
-          <Bars3BottomRightIcon className="h-8 w-8 text-white" />
+          <Bars3BottomRightIcon className="h-8 w-8 text-leaf" />
           <span className="sr-only">Open sidebar</span>
         </button>
         <Transition.Root as={Fragment} show={isOpen}>
