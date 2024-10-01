@@ -13,7 +13,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/bg-cloth.png';
-import portfolioLindaT from '../images/portfolio/portfolio-lindat-desktop.jpg';
+import portfolioLindaT from '../images/portfolio/portfolio-lindat-mobile.jpg';
 import porfolioMFD1 from '../images/portfolio/portfolio-mfd-mobile.png';
 import porfolioWeCAB1 from '../images/portfolio/portfolio-wecab-desktop.jpeg';
 import profilepic from '../images/profilepic.png';
@@ -77,8 +77,8 @@ export const heroData: Hero = {
         <strong className="text-gray-600">I'd love to share that with you and your business.</strong>
       </p>
       <p className="prose-sm text-gray-500 sm:prose-base lg:prose-lg">
-        In my free time, I watch Blippi with my pre-schooler, read romance, mystery, self-improvement books, and
-        work on the occasional house project (plant this, build/paint that.)
+        In my free time, I watch Blippi with my pre-schooler, read romance, mystery, self-improvement books, and work on
+        the occasional house project (plant this, build/paint that.)
       </p>
     </>
   ),
@@ -258,7 +258,7 @@ export const skills: SkillGroup[] = [
       {
         name: 'Postman',
         level: 5,
-      },      
+      },
       {
         name: 'Wix',
         level: 5,
@@ -272,7 +272,7 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'The Gallery of Linda Tay\'nahza\'',
+    title: "The Gallery of Linda Tay'nahza'",
     description: 'Taxonomy updates, landing page enhancements.  In progress: print on demand enablement.',
     url: 'https://www.lindataynahza.com/',
     image: portfolioLindaT,
