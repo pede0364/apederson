@@ -13,6 +13,7 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import heroImage from '../images/bg-cloth.png';
+import portfolioLindaT from '../images/portfolio/portfolio-lindat-desktop.jpg';
 import porfolioMFD1 from '../images/portfolio/portfolio-mfd-mobile.png';
 import porfolioWeCAB1 from '../images/portfolio/portfolio-wecab-desktop.jpeg';
 import profilepic from '../images/profilepic.png';
@@ -270,6 +271,12 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+  {
+    title: 'The Gallery of Linda Tay\'nahza\'',
+    description: 'Taxonomy updates, landing page enhancements.  In progress: print on demand enablement.',
+    url: 'https://www.lindataynahza.com/',
+    image: portfolioLindaT,
+  },
   {
     title: 'Mound Fire Department',
     description: 'Webmaster since 2005.',
