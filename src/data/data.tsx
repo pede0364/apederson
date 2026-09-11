@@ -409,7 +409,7 @@ export const contact: ContactSection = {
   items: [
     {
       type: ContactType.Website,
-      text: 'https://www.askpismodunes.com/#contact',
+      text: 'Let\'s Work Together!',
       href: 'https://www.askpismodunes.com/#contact',
     },
     {
