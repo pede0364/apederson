@@ -77,7 +77,7 @@ export const heroData: Hero = {
         <strong className="text-gray-600">I'd love to share that with you and your business.</strong>
       </p>
       <p className="prose-sm text-gray-500 sm:prose-base lg:prose-lg">
-        In my free time, I watch Blippi with my pre-schooler, read romance, mystery, self-improvement books, and work on
+        In my free time, I watch cartoons with my Kinergartner, read romance, mystery, self-improvement books, and work on
         the occasional house project (plant this, build/paint that.)
       </p>
     </>
@@ -107,8 +107,8 @@ export const aboutData: About = {
    I have a soft spot for looking at data and A/B Testing.`,
   aboutItems: [
     {label: 'Location', text: 'Minneapolis, MN', Icon: MapIcon},
-    {label: 'Availability', text: 'Full-Time / Part-Time / Contract', Icon: CalendarIcon},
-    {label: 'Remote Work', text: 'Remote / Hybrid', Icon: CloudIcon},
+    {label: 'Availability', text: 'Part-Time / Contract', Icon: CalendarIcon},
+    {label: 'Remote Work', text: 'Remote', Icon: CloudIcon},
     {label: 'Interests', text: 'Reading, Gardening, Nature', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Minnesota, Twin Cities', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Self Employed / Contractor', Icon: BuildingOffice2Icon},
@@ -408,19 +408,14 @@ export const contact: ContactSection = {
   description: '',
   items: [
     {
-      type: ContactType.Email,
-      text: 'contact@pismodunes.net',
-      href: 'mailto:contact@pismodunes.net',
+      type: ContactType.website,
+      text: 'https://www.askpismodunes.com/#contact',
+      href: 'https://www.askpismodunes.com/#contact',
     },
     {
       type: ContactType.Location,
       text: 'Minneapolis, MN, USA',
       href: 'https://www.google.ca/maps/place/Minneapolis,+MN/@44.9706674,-93.3438792,12z',
-    },
-    {
-      type: ContactType.Github,
-      text: 'pede0364',
-      href: 'https://github.com/pede0364',
     },
     {
       type: ContactType.LinkedIn,
