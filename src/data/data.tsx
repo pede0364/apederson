@@ -408,7 +408,7 @@ export const contact: ContactSection = {
   description: '',
   items: [
     {
-      type: ContactType.website,
+      type: ContactType.Website,
       text: 'https://www.askpismodunes.com/#contact',
       href: 'https://www.askpismodunes.com/#contact',
     },

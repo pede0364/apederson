@@ -1,4 +1,4 @@
-import {DevicePhoneMobileIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
+import {DevicePhoneMobileIcon, GlobeAltIcon, EnvelopeIcon, MapPinIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import {FC, memo} from 'react';
 
@@ -13,6 +13,7 @@ import Section from '../../Layout/Section';
 
 const ContactValueMap: Record<ContactType, ContactValue> = {
   [ContactType.Email]: {Icon: EnvelopeIcon, srLabel: 'Email'},
+  [ContactType.Website]: {Icon: GlobeAltIcon, srLabel: 'Website'},
   [ContactType.Phone]: {Icon: DevicePhoneMobileIcon, srLabel: 'Phone'},
   [ContactType.Location]: {Icon: MapPinIcon, srLabel: 'Location'},
   [ContactType.Github]: {Icon: GithubIcon, srLabel: 'Github'},
