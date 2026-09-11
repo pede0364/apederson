@@ -118,6 +118,7 @@ export interface ContactSection {
 
 export const ContactType = {
   Email: 'Email',
+  Website: 'Website',
   Phone: 'Phone',
   Location: 'Location',
   Github: 'Github',
